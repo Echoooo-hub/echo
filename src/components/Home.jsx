@@ -26,7 +26,7 @@ const Home = ({ reviews = [], onReviewClick, onViewAllClick, onViewMessagesClick
           <div className="home-intro">
             <div className="intro-header">
               <div className="profile-avatar">
-                <img src="/个人照片/profile-photo.jpg" alt="Echo Fu" />
+                <img src="/photos/profile-photo.jpg" alt="Echo Fu" />
               </div>
               <h1>Echo Fu · 回声</h1>
               <p className="welcome-text">你好呀，欢迎来到我的回音壁👋</p>
@@ -60,19 +60,19 @@ const Home = ({ reviews = [], onReviewClick, onViewAllClick, onViewMessagesClick
             <h3 className="photos-title">上天·入海·人间</h3>
             <div className="photo-gallery">
               <div className="gallery-item large">
-                <img src="/个人照片/bungee.jpg" alt="蹦极" />
+                <img src="/photos/bungee.jpg" alt="蹦极" />
                 <div className="gallery-overlay">
                   <span>蹦极</span>
                 </div>
               </div>
               <div className="gallery-item small">
-                <img src="/个人照片/dive.jpg" alt="潜水" />
+                <img src="/photos/dive.jpg" alt="潜水" />
                 <div className="gallery-overlay">
                   <span>潜水</span>
                 </div>
               </div>
               <div className="gallery-item medium">
-                <img src="/个人照片/work.jpg" alt="工作场景" />
+                <img src="/photos/work.jpg" alt="工作场景" />
                 <div className="gallery-overlay">
                   <span>工作</span>
                 </div>
