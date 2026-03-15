@@ -1,8 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/images/(.*)", "destination": "/images/$1" },
-    { "source": "/个人照片/(.*)", "destination": "/个人照片/$1" },
-    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+  "routes": [
+    { "source": "/照片/(.*)", "destination": "/照片/$1" },
+    { "source": "/(.*)\\.(jpg|jpeg|png|gif|webp|svg|ico)", "destination": "/$1.$2" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
+
