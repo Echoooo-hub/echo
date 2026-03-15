@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local env / IDE
+.env
+.env.local
+.DS_Store
+*.log
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
