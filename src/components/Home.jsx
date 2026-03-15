@@ -26,7 +26,7 @@ const Home = ({ reviews = [], onReviewClick, onViewAllClick, onViewMessagesClick
           <div className="home-intro">
             <div className="intro-header">
               <div className="profile-avatar">
-                <img src="/个人照片/profile photo.jpg" alt="Echo Fu" />
+                <img src="/个人照片/profile-photo.jpg" alt="Echo Fu" />
               </div>
               <h1>Echo Fu · 回声</h1>
               <p className="welcome-text">你好呀，欢迎来到我的回音壁👋</p>
